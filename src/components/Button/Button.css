@@ -13,3 +13,7 @@
   background-color: #495e57;
   color: white;
 }
+
+a:hover {
+  background-color: gray;
+}

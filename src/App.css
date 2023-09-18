@@ -36,3 +36,38 @@
 body {
   font-family: Karla, sans-serif;
 }
+button:hover {
+  background-color: lightyellow;
+}
+/* hover effect in food-card-image */
+        .food-card-image{
+            height: auto;
+            width: 400px;
+            margin: auto;
+        }
+        .food-card-image img{
+            width: 400px;
+            height: auto;
+            margin: auto;
+            opacity: 50%;
+        }
+        .food-card-image:hover img{
+            opacity: 100%;
+            transition: all 1s;
+        }
+  /* hover effect in testimonial-card-container */
+  .testimonial-card-container{
+    height: auto;
+    width: 400px;
+    margin: auto;
+}
+.testimonial-card-container img{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    opacity: 70%;
+}
+.testimonial-card-container:hover img {
+    opacity: 700%;
+    transition: all 1s;
+}
